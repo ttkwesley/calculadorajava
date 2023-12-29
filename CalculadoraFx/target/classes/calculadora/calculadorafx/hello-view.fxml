@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="81.0"
+            prefWidth="423.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="calculadora.calculadorafx.HelloController">
+   <Button layoutX="315.0" layoutY="28.0" mnemonicParsing="false" onAction="#btnSoma" prefHeight="25.0" prefWidth="82.0"
+           text="Somar"/>
+   <TextField fx:id="txtN1" layoutX="25.0" layoutY="28.0" prefHeight="25.0" prefWidth="69.0"/>
+   <TextField fx:id="txtN2" layoutX="151.0" layoutY="28.0" prefHeight="25.0" prefWidth="69.0"/>
+   <Label layoutX="116.0" layoutY="17.0" prefHeight="47.0" prefWidth="35.0" text="+">
+      <font>
+         <Font size="26.0"/>
+      </font>
+   </Label>
+   <Label layoutX="237.0" layoutY="25.0" text="=">
+      <font>
+         <Font size="22.0"/>
+      </font>
+   </Label>
+   <Label fx:id="lblResultado" layoutX="268.0" layoutY="26.0" text="0">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Label>
+</AnchorPane>
